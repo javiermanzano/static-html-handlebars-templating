@@ -16,6 +16,7 @@ module.exports = function(grunt) {
     	allStatic: {
 			template: 'templates/*.hbs',
 			templateData: 'templates/data.json',
+			partials: 'templates/partials/*.hbs',
 			output: 'output/*.html'
 	    }
     }
